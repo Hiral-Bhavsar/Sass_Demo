@@ -1,0 +1,19 @@
+// Backgrounds
+.bg {
+    
+    &-primary {
+        @include set-bg($primary-color);
+    }
+    &-dark {
+        @include set-bg($dark-color);
+    }
+    &-success {
+        @include set-bg($success-color);
+    }
+    &-danger {
+        @include set-bg($danger-color);
+    }
+    &-light {
+        @include set-bg($light-color);
+    }
+}

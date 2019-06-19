@@ -1,4 +1,5 @@
 @import 'config';
+@import 'utilities';
 
 * {
     box-sizing: border-box;
@@ -39,4 +40,18 @@ img {
     z-index: 1;
     border-bottom: 1px solid $dark-color;
     opacity: 0.9;
+
+    ul {
+        display: flex;
+    }
+
+    a {
+        color: $light-color;
+        padding: 10px;
+        margin: 0 15px;
+
+        &:hover {
+            color: $dark-color;
+        }
+    }
 }
