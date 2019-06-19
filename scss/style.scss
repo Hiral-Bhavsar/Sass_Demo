@@ -1,0 +1,42 @@
+@import 'config';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 50%;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid $dark-color;
+    opacity: 0.9;
+}
